@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/job-interview-preperation/static/css/main.685af695.css",
+    "main.css": "/job-interview-preperation/static/css/main.c8915e3d.css",
     "main.js": "/job-interview-preperation/static/js/main.a2ee1bea.js",
     "static/js/787.15e48551.chunk.js": "/job-interview-preperation/static/js/787.15e48551.chunk.js",
     "static/media/Livvic-Bold.ttf": "/job-interview-preperation/static/media/Livvic-Bold.089af19ac41ce144a96c.ttf",
     "static/media/Livvic-SemiBold.ttf": "/job-interview-preperation/static/media/Livvic-SemiBold.c79c53d29c413ab69adb.ttf",
     "index.html": "/job-interview-preperation/index.html",
-    "main.685af695.css.map": "/job-interview-preperation/static/css/main.685af695.css.map",
+    "main.c8915e3d.css.map": "/job-interview-preperation/static/css/main.c8915e3d.css.map",
     "main.a2ee1bea.js.map": "/job-interview-preperation/static/js/main.a2ee1bea.js.map",
     "787.15e48551.chunk.js.map": "/job-interview-preperation/static/js/787.15e48551.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.685af695.css",
+    "static/css/main.c8915e3d.css",
     "static/js/main.a2ee1bea.js"
   ]
 }
