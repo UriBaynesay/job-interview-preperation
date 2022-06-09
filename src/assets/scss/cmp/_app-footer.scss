@@ -1,0 +1,39 @@
+.app-footer {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+  grid-template-areas: ". content .";
+  background-color: #002529;
+  color: white;
+  padding-block: 30px;
+  small {
+    display: block;
+  }
+
+  .footer-container {
+    grid-area: content;
+    display: flex;
+    justify-content: space-between;
+    .info-container {
+      display: flex;
+      align-items: flex-end;
+      .quick-nav-container {
+        .logo {
+          margin-bottom: 10px;
+        }
+        .footer-nav-container {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      .contact-info{
+          padding-left: 15px;
+          color: lightgray;
+      }
+    }
+    .social-container{
+        display: flex;
+        align-items: flex-end;
+        color: lightgray;
+    }
+  }
+}

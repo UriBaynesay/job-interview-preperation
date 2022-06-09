@@ -10,6 +10,7 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.52.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -38,5 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage":"https://UriBaynesay.github.io/job-interview-preperation"
+  "homepage": "https://UriBaynesay.github.io/job-interview-preperation"
 }

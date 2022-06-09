@@ -1,0 +1,48 @@
+.app-header {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+  grid-template-areas: ". header .";
+  color: white;
+  height: 80px;
+  background-color: #014d56;
+  padding-top: 30px;
+}
+
+.header-container {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  @media (max-width:600px) {
+      justify-content: space-between;
+  }
+  .nav-container {
+    display: flex;
+    padding-left: 20px;
+    .nav-options {
+      @media (max-width: 600px) {
+        display: none;
+      }
+      display: block;
+      > * {
+        padding-left: 10px;
+        cursor: pointer;
+      }
+    }
+
+    .menu-hamburger {
+      @media (max-width: 600px) {
+        display: block;
+      }
+      display: none;
+      cursor: pointer;
+    }
+  }
+  .contact-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    @media (max-width: 600px) {
+        display: none;
+      }
+  }
+}
